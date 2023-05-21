@@ -13,3 +13,6 @@ C:\UrFU\semester_4\sharp\KinopoiskBot\obj\Debug\net6.0\refint\KinopoiskBot.dll
 C:\UrFU\semester_4\sharp\KinopoiskBot\obj\Debug\net6.0\KinopoiskBot.pdb
 C:\UrFU\semester_4\sharp\KinopoiskBot\obj\Debug\net6.0\KinopoiskBot.genruntimeconfig.cache
 C:\UrFU\semester_4\sharp\KinopoiskBot\obj\Debug\net6.0\ref\KinopoiskBot.dll
+C:\UrFU\semester_4\sharp\KinopoiskBot\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\UrFU\semester_4\sharp\KinopoiskBot\bin\Debug\net6.0\Telegram.Bot.dll
+C:\UrFU\semester_4\sharp\KinopoiskBot\obj\Debug\net6.0\KinopoiskBot.csproj.CopyComplete
