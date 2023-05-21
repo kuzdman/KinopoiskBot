@@ -1,0 +1,15 @@
+C:\UrFU\semester_4\sharp\KinopoiskBot\bin\Debug\net6.0\KinopoiskBot.exe
+C:\UrFU\semester_4\sharp\KinopoiskBot\bin\Debug\net6.0\KinopoiskBot.deps.json
+C:\UrFU\semester_4\sharp\KinopoiskBot\bin\Debug\net6.0\KinopoiskBot.runtimeconfig.json
+C:\UrFU\semester_4\sharp\KinopoiskBot\bin\Debug\net6.0\KinopoiskBot.dll
+C:\UrFU\semester_4\sharp\KinopoiskBot\bin\Debug\net6.0\KinopoiskBot.pdb
+C:\UrFU\semester_4\sharp\KinopoiskBot\obj\Debug\net6.0\KinopoiskBot.csproj.AssemblyReference.cache
+C:\UrFU\semester_4\sharp\KinopoiskBot\obj\Debug\net6.0\KinopoiskBot.GeneratedMSBuildEditorConfig.editorconfig
+C:\UrFU\semester_4\sharp\KinopoiskBot\obj\Debug\net6.0\KinopoiskBot.AssemblyInfoInputs.cache
+C:\UrFU\semester_4\sharp\KinopoiskBot\obj\Debug\net6.0\KinopoiskBot.AssemblyInfo.cs
+C:\UrFU\semester_4\sharp\KinopoiskBot\obj\Debug\net6.0\KinopoiskBot.csproj.CoreCompileInputs.cache
+C:\UrFU\semester_4\sharp\KinopoiskBot\obj\Debug\net6.0\KinopoiskBot.dll
+C:\UrFU\semester_4\sharp\KinopoiskBot\obj\Debug\net6.0\refint\KinopoiskBot.dll
+C:\UrFU\semester_4\sharp\KinopoiskBot\obj\Debug\net6.0\KinopoiskBot.pdb
+C:\UrFU\semester_4\sharp\KinopoiskBot\obj\Debug\net6.0\KinopoiskBot.genruntimeconfig.cache
+C:\UrFU\semester_4\sharp\KinopoiskBot\obj\Debug\net6.0\ref\KinopoiskBot.dll

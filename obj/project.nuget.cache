@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "oQJrm4/HGzdOzFNdeBBCzAPRfe57YnwzETpdVqLkOrWqS9TW14fOCyMfZK9Andrr06N92e5G23r2RTdNDXDeCg==",
+  "success": true,
+  "projectFilePath": "C:\\UrFU\\semester_4\\sharp\\KinopoiskBot\\KinopoiskBot.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\An\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.14\\microsoft.netcore.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\An\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.14\\microsoft.windowsdesktop.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\An\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.14\\microsoft.aspnetcore.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\An\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.14\\microsoft.netcore.app.host.win-x64.6.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
