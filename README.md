@@ -1,0 +1,2 @@
+# KinopoiskBot
+Kinopoisk API Bot
