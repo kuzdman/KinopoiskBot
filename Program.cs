@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Configuration;
 using Telegram.Bot;
 using Telegram.Bot.Types;
+using Telegram.Bot.Types.Enums;
 
 namespace KinopoiskBot
 {
@@ -8,21 +10,41 @@ namespace KinopoiskBot
     {
         private static void Main(string[] args)
         {
-            var client = new TelegramBotClient("5918832145:AAEJLhWvQt6ZNaoJNv_HNBUATaoK36v4W1Q");
+            var client = new TelegramBotClient(ConfigurationManager.AppSettings["TG_TOKEN"] ?? throw new InvalidOperationException());
             client.StartReceiving(Update, Error);
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Bot launched successfully!");
             Console.ReadLine();
         }
 
         private static async Task Update(ITelegramBotClient botClient, Update update, CancellationToken token)
         {
+            var kinopoiskApi = new KinopoiskApi();
             var message = update.Message;
-            if (message.Text != null)
+            Console.WriteLine($"{message?.Chat.Username} -> {message?.Text}");
+            
+            if (message?.Text != null)
             {
-                if (message.Text.ToLower().Contains("здарова"))
+                switch (message.Text)
                 {
-                    await botClient.SendTextMessageAsync(message.Chat.Id, "Здоровее видали", cancellationToken: token);
-                    return;
+                    case "/start":
+                    case "/help":
+                        await botClient.SendTextMessageAsync(
+                            message.Chat.Id,
+                            "Привет! Назови фильм, о котором хочешь узнать, и я тебе расскажу о нём!", 
+                            cancellationToken: token);
+                        return;
+                    
+                    default:
+                        var film = message.Text;
+                        var (filmName, filmDescription) = kinopoiskApi.Search(film);
+
+                        var answer = $"*{filmName}*\n\n{filmDescription}";
+                        await botClient.SendTextMessageAsync(
+                            message.Chat.Id,
+                            answer,
+                            cancellationToken: token,
+                            parseMode: ParseMode.Markdown);
+                        break;
                 }
             }
         }
